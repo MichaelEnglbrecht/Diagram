@@ -1,0 +1,101 @@
+[{
+	"KEY": "KEY 1",
+	"SUB_REGION_NAME": "SUB_REGION_NAME 1",
+	"REGION_NAME": "REGION_NAME 1",
+	"PRODUCT_NAME": "PRODUCT_NAME 1",
+	"SALES_AMOUNT": 6.459829016327929,
+	"__metadata": {
+		"uri": "Verkaufszahlen('KEY 1')",
+		"type": "book.services.VerkaufszahlenService.VerkaufszahlenType"
+	}
+}, {
+	"KEY": "KEY 2",
+	"SUB_REGION_NAME": "SUB_REGION_NAME 2",
+	"REGION_NAME": "REGION_NAME 2",
+	"PRODUCT_NAME": "PRODUCT_NAME 2",
+	"SALES_AMOUNT": 5.85204859728083,
+	"__metadata": {
+		"uri": "Verkaufszahlen('KEY 2')",
+		"type": "book.services.VerkaufszahlenService.VerkaufszahlenType"
+	}
+}, {
+	"KEY": "KEY 3",
+	"SUB_REGION_NAME": "SUB_REGION_NAME 3",
+	"REGION_NAME": "REGION_NAME 3",
+	"PRODUCT_NAME": "PRODUCT_NAME 3",
+	"SALES_AMOUNT": 7.858907648340637,
+	"__metadata": {
+		"uri": "Verkaufszahlen('KEY 3')",
+		"type": "book.services.VerkaufszahlenService.VerkaufszahlenType"
+	}
+}, {
+	"KEY": "KEY 4",
+	"SUB_REGION_NAME": "SUB_REGION_NAME 4",
+	"REGION_NAME": "REGION_NAME 4",
+	"PRODUCT_NAME": "PRODUCT_NAME 4",
+	"SALES_AMOUNT": 3.900276176691586,
+	"__metadata": {
+		"uri": "Verkaufszahlen('KEY 4')",
+		"type": "book.services.VerkaufszahlenService.VerkaufszahlenType"
+	}
+}, {
+	"KEY": "KEY 5",
+	"SUB_REGION_NAME": "SUB_REGION_NAME 5",
+	"REGION_NAME": "REGION_NAME 5",
+	"PRODUCT_NAME": "PRODUCT_NAME 5",
+	"SALES_AMOUNT": 0.27375421561746993,
+	"__metadata": {
+		"uri": "Verkaufszahlen('KEY 5')",
+		"type": "book.services.VerkaufszahlenService.VerkaufszahlenType"
+	}
+}, {
+	"KEY": "KEY 6",
+	"SUB_REGION_NAME": "SUB_REGION_NAME 6",
+	"REGION_NAME": "REGION_NAME 6",
+	"PRODUCT_NAME": "PRODUCT_NAME 6",
+	"SALES_AMOUNT": 8.144652075639222,
+	"__metadata": {
+		"uri": "Verkaufszahlen('KEY 6')",
+		"type": "book.services.VerkaufszahlenService.VerkaufszahlenType"
+	}
+}, {
+	"KEY": "KEY 7",
+	"SUB_REGION_NAME": "SUB_REGION_NAME 7",
+	"REGION_NAME": "REGION_NAME 7",
+	"PRODUCT_NAME": "PRODUCT_NAME 7",
+	"SALES_AMOUNT": 4.704323473463701,
+	"__metadata": {
+		"uri": "Verkaufszahlen('KEY 7')",
+		"type": "book.services.VerkaufszahlenService.VerkaufszahlenType"
+	}
+}, {
+	"KEY": "KEY 8",
+	"SUB_REGION_NAME": "SUB_REGION_NAME 8",
+	"REGION_NAME": "REGION_NAME 8",
+	"PRODUCT_NAME": "PRODUCT_NAME 8",
+	"SALES_AMOUNT": 2.673492732577858,
+	"__metadata": {
+		"uri": "Verkaufszahlen('KEY 8')",
+		"type": "book.services.VerkaufszahlenService.VerkaufszahlenType"
+	}
+}, {
+	"KEY": "KEY 9",
+	"SUB_REGION_NAME": "SUB_REGION_NAME 9",
+	"REGION_NAME": "REGION_NAME 9",
+	"PRODUCT_NAME": "PRODUCT_NAME 9",
+	"SALES_AMOUNT": 1.1560053898621092,
+	"__metadata": {
+		"uri": "Verkaufszahlen('KEY 9')",
+		"type": "book.services.VerkaufszahlenService.VerkaufszahlenType"
+	}
+}, {
+	"KEY": "KEY 10",
+	"SUB_REGION_NAME": "SUB_REGION_NAME 10",
+	"REGION_NAME": "REGION_NAME 10",
+	"PRODUCT_NAME": "PRODUCT_NAME 10",
+	"SALES_AMOUNT": 0.8958916620022528,
+	"__metadata": {
+		"uri": "Verkaufszahlen('KEY 10')",
+		"type": "book.services.VerkaufszahlenService.VerkaufszahlenType"
+	}
+}]

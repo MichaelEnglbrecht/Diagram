@@ -1,0 +1,88 @@
+{
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "sap.training.diagram",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"dataSources": {
+			"SalesModel": {
+				"uri": "model",
+				"type": "OData",
+				"settings": {
+					"annotations": [],
+					"odataVersion": "2.0",
+					"localUri": ""
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": ["sap_bluecrystal"]
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"rootView": "sap.training.diagram.view.Main",
+		"dependencies": {
+			"minUI5Version": "1.30",
+			"libs": {
+				"sap.m": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "sap.training.diagram.i18n.i18n"
+				}
+			},
+			"SalesModel": {
+				"dataSource": "SalesModel",
+				"settings": {
+					"disableHeadRequestForToken": true
+				}
+			}
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "sap.training.diagram.view",
+				"controlId": "idApp",
+				"controlAggregation": "pages",
+				"transition": "slide",
+				"bypassed": {
+					"target": "notFound"
+				}
+			},
+			"routes": [{
+				"pattern": "",
+				"name": "main",
+				"target": "main"
+			}],
+			"targets": {
+				"main": {
+					"viewName": "Main",
+					"viewLevel": 1,
+					"targetParent": "idApp"
+				}
+			}
+		}
+	}
+}
